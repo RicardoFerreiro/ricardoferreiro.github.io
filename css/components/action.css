@@ -1,0 +1,13 @@
+.action{     
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #242426;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.2s; 
+}
+.action:hover{
+    transform: translateY(-20%);    
+}

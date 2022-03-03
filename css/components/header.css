@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2BE22;
+    border-bottom: 2px solid #242426;
+    padding: 10px 20px;
+    align-items: center;
+    
+}
+
+.header h1{
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    color: #242426;    
+    transition: 0.2s ease-in-out;
+    letter-spacing: .1rem;
+    text-shadow: none;
+}
+.header h1:hover{
+    opacity: calc(50%);
+    cursor: pointer;        
+}

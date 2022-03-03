@@ -1,58 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap');
-
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #F2BE22;
-    border-bottom: 2px solid #242426;
-    padding: 10px 20px;
-    align-items: center;
-    
-}
 body{
     font-family: "Fira code",  Arial, Helvetica, sans-serif;
 }
-header h1{
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 25px;
-    color: #242426;    
-    transition: 0.2s ease-in-out;
-    letter-spacing: .1rem;
-    text-shadow: none;
-}
-header h1:hover{
-    opacity: calc(50%);
-    cursor: pointer;        
-}
-header nav{   
-    text-align: right;
-}
-header a{
-    display: inline-flex;
-    align-items: center;
-    font-size: 15px;
-    font-weight: 500;
-    color: #242426;
-    text-decoration: none;
-    margin-right: 30px;
-    transition: 0.2s; 
-}
-header a:hover{
-    transform: translateY(-20%);    
-}
-#button{
-    display: inline-block;
-    background-color: #242426;
-    padding: 10px 20px;
-    box-shadow: 3px 3px 0px #F2AC29;
-    margin-right: 0px ;
-    color: white;
-    
-    transition: 0.2s ease-in-out;
-}
-#button:hover{
-    box-shadow: 3px 3px 0px #664508;
-}
-#button::before{
-    content: none;
-}
+
