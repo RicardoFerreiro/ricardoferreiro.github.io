@@ -254,6 +254,7 @@ button{
 .btn_group a{
     margin: 5px;
 }
+
 .default-btn{
     font-family: "Open Sans",sans-serif;
     letter-spacing: 2px;
@@ -316,6 +317,11 @@ button{
 .default-btn.btn_sm{
     line-height: 40px;
     padding: 0 15px;
+}
+
+.whatsapp-btn{
+    background-color: #31ce1c; 
+    padding: 0 50px;
 }
 
 /* Transition Effect */
